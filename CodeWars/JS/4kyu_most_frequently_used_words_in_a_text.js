@@ -1,5 +1,3 @@
-/* TODO  SOLVE IT*/
-// FIXME!
 // https://www.codewars.com/kata/51e056fe544cf36c410000fb/train/javascript
 let topThreeWords = text => {
     let dict = new Map();
