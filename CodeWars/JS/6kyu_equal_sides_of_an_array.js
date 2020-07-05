@@ -1,13 +1,14 @@
 // https://www.codewars.com/kata/5679aa472b8f57fb8c000047/train/javascript
 
 function findEvenIndex(arr) {
-    let result=-1;
-    const sum = (list)=>list.length>0?list.reduce((acc,nom)=>acc+nom):0;
-    arr.forEach((el,i)=>{
-        if (sum(arr.slice(0,i))===sum(arr.slice(i+1))){
-            result=i;
+    let result = -1;
+    const sum = (list) =>
+        list.length > 0 ? list.reduce((acc, nom) => acc + nom) : 0;
+    arr.forEach((el, i) => {
+        if (sum(arr.slice(0, i)) === sum(arr.slice(i + 1))) {
+            result = i;
         }
-    })
+    });
     return result;
 }
 
