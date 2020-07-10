@@ -60,9 +60,7 @@ transpile = (program) => {
     return `${exprT(exp)}(${par ? paramT(par) : ''})`;
     
 }
-Best Practices0Clever0
-0ForkLink
-giblets2570
+
 function replaceLambdas(program) {
   let re = /{ *((\w+ *, *)*\w+ *->|) *(\w+\s*)* *}/gi;
   let lambdas = new Set()
