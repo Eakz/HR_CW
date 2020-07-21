@@ -1,10 +1,12 @@
 // https://www.codewars.com/kata/5eea52f43ed68e00016701f3
 
-function countWays(n, k){
-    const jumps = [...Array(k).keys];
-    return jumps;
-}
 
+const countWays = (n, k) => {
+    const jumps = [...Array(k).keys()].map((a) => 2 ** a);
+    for (let i = 0; i < n - k; i++)
+        jumps.push(jumps.slice(-k).reduce((a, b) => a + b));
+    return jumps[n-1];
+};
 
 console.log(countWays(1, 3)) // 1);
 console.log(countWays(3, 3)) // 4);
