@@ -1,31 +1,26 @@
 // https://www.codewars.com/kata/5b65c47cbedf7b69ab00066e/train/javascript
 
-function buildTrie(...words) {
+const buildTrie = (...strs) => {
     let result = {};
-    const wrapper = str => {
-        const saturate = (str, key = "", obj = {}) => {
-            if (str.length <= 1) {
-                key += str;
-                obj[key] = null;
-                return obj;
-            }
-            key += str[0];
-            console.log("key", key);
-            str = str.slice(1);
-            console.log(str);
-            obj[key] = saturate(str, key);
-            return obj;
-        };
-    };
-    words.forEach(e => {
-        result = { ...result, ...wrapper(e) };
+
+    strs.forEach(st => {
+        let node = result,
+            str = "";
+
+        for (let char of st) {
+            str += char;
+            node[str] = node[str] || (str === st ? null : {});
+            node = node[str];
+        }
     });
+
     return result;
-}
+};
 
 // console.log(buildTrie(), {});
 // console.log(buildTrie(""), {});
-console.log(buildTrie("trie"), { t: { tr: { tri: { trie: null } } } });
+// console.log(buildTrie("tree", "top"));
+console.log(buildTrie("A", "pie"));
 // console.log(buildTrie("tree"), { t: { tr: { tre: { tree: null } } } });
 // console.log(buildTrie("trie", "trie"), { t: { tr: { tri: { trie: null } } } });
 // console.log(buildTrie("A", "to", "tea", "ted", "ten", "i", "in", "inn"), {
