@@ -21,4 +21,10 @@ let values = [
     [4, 5, 6],
     [7, 8, 9],
 ];
-for(let x=0;x<=3;)
+let start =0;
+let finish = 2;
+for(let y=0;y<3;y++){
+    for(let x=0;x<3;x++){
+
+    }
+}
