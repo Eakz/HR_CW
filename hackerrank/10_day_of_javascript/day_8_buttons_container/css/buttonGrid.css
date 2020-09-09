@@ -74,14 +74,23 @@ body {
     min-width: 250px;
     min-height: 250px;
     border: 1px solid green;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 48px 48px 48px;
+    grid-column-gap: 1%;
+    grid-row-gap: 5%;
 }
-tr {
-}
+
 .btn {
-    width: 30%;
-    height: 48px;
     font-size: 24px;
     min-width: 50px;
     padding-left: 2em;
     border: 1px solid black;
+    -moz-user-select: none;
+    cursor: pointer;
+}
+.btn:hover {
+    border: 1px solid white;
+    background-color: rgb(87, 87, 87);
+    color: white;
 }
