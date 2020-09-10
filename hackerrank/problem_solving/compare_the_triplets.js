@@ -1,5 +1,3 @@
-// https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
-
 function compareTriplets(a, b) {
     let f = 0,
         s = 0;
