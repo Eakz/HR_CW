@@ -2,6 +2,6 @@
 
 updated daily
 
-Contains both Python and JavaScript solutions.
+Contains both Python,JavaScript,Shell and Java solutions.
 
 
