@@ -4,7 +4,7 @@ updated daily
 
 Contains both Python,JavaScript,Shell and Java solutions.
 
-NO CHEATING ALLOWED
+NO CHEATING ALLOWED...SUGGESTIONS ACCEPTED
 
 ------------------------
 P.S. I am looking forward to adding few 3kyu solutions tomorrow
