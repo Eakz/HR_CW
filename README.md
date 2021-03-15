@@ -4,6 +4,8 @@ updated daily
 
 Contains both Python,JavaScript,Shell and Java solutions.
 
-------------------------
-P.S. I am looking forward to adding few 3kyu solutions tomorrow
-------------------------
+NO CHEATING ALLOWED...SUGGESTIONS ACCEPTED...ADVICES APPRECIATED...BETTER SOLUTIONS WELCOME.
+
+-----------------------------------
+P.S. I am looking forward to adding few 1kyu and 2kyu solutions tomorrow
+-----------------------------------
