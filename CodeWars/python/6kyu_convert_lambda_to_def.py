@@ -1,5 +1,5 @@
 # https://www.codewars.com/kata/605d25f4f24c030033da9afb/train/python
-
+# No lib solution
 def convert_lambda_to_def(string):
     a=string.split(' = ')
     name=a[0]
@@ -7,6 +7,15 @@ def convert_lambda_to_def(string):
     var=b[0].split(' ')[1]
     retrn=b[1]
     return f"def {name}({var}):\n    return {retrn}"
+# Regex lib 
+from re import compile
+def convert_lambda_to_def(string):
+    from re import compile
+
+    REGEX = compile(r"(.+) = lambda (.+): (.+)").search
+    
+    name, args, body = REGEX(string).groups()
+    return f"def {name}({args}):\n    return {body}"
 
 import codewars_test as test
 
