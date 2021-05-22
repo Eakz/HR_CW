@@ -4,7 +4,7 @@
   "description": "",
   "main": "2kyu_expression_transpiler.js",
   "dependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.3.4"
   },
   "devDependencies": {
     "mocha": "^8.1.3"
