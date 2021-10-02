@@ -1,24 +1,4 @@
-// var reachNumber = function (target) {
-//     let [pointer, moves] = [0, 1]
-//     while (pointer !== target) {
-//         if (pointer === target) {
-//             return moves
-//         }
-//         if (pointer > target && pointer - moves === target) {
 
-//             pointer -= moves
-
-//         } else if (pointer > target&&pointer-moves>target) {
-//             pointer -= moves
-//         }
-//         else {
-//             pointer += moves;
-//         }
-
-//         moves++;
-//     }
-//     return moves
-// };
 
 var reachNumber = function (target) {
     let c = 0;
