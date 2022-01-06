@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "2kyu_expression_transpiler.js",
   "dependencies": {
-    "chai": "^4.3.4"
+    "chai": "^4.3.4",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "mocha": "^8.4.0"
