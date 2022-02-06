@@ -12,7 +12,13 @@
  * [2,1]->[1,0]
  * [2,2]->[2,0]
  *
- */
+ *
+ **/
+
+//  function rotateAgainstClockwise(a,n){
+//     for (let i=0;i<n%4;i++) a = a[0].map((e,i)=>a.map(x=>x[x.length-i-1]))
+//     return a
+//   }
 
 const rotateM = m => {
     const size = m.length;
