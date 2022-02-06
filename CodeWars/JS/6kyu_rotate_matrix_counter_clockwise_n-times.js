@@ -26,20 +26,12 @@ const rotateM = m => {
     return newArray;
 };
 function rotateAgainstClockwise(matrix, times) {
-    if (times % 4 === 0) {
-        return matrix;
-    } else if (times % 3 === 0) {
-        times = 3;
-    } else if (times % 2 === 0) {
-        times = 2;
-    } else {
-        times = 1;
-    }
+    times = times % 4;
     for (let i = 0; i < times; i++) {
-        matrix=rotateM(matrix)
+        matrix = rotateM(matrix);
     }
-    return matrix
-
+    console.log(times);
+    return matrix;
 }
 
 if (process.mainModule.path.includes('mocha')) {
