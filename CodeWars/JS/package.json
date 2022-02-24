@@ -12,7 +12,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "EakzIT",
   "license": "ISC",
   "keywords": [],
   "description": ""
