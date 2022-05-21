@@ -1,2 +1,2 @@
-#HACKERRANK and #CODEWARS solutions.
+#HACKERRANK and #CODEWARS ad #LEETCODE solutions 
 Contains both Python,JavaScript,Typescript, Shell and Java solutions...
