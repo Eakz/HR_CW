@@ -1,2 +1,6 @@
 #HACKERRANK and #CODEWARS ad #LEETCODE solutions
-Contains both Python,JavaScript,Typescript, Shell and GoLang solutions...
+- JavaScript
+- TypeScript
+- Java
+- Golang
+- Bash
