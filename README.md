@@ -1,4 +1,4 @@
-#HACKERRANK and #CODEWARS ad #LEETCODE solutions
+#HACKERRANK and #CODEWARS and #LEETCODE solutions
 - JavaScript
 - TypeScript
 - Java
