@@ -5,5 +5,3 @@
 - Golang
 - Bash
 
-
-Upcoming new UI 2023
