@@ -4,5 +4,6 @@
 - Java
 - Golang
 - Bash
+- Python
 
 @inc more Golang and Three.js
