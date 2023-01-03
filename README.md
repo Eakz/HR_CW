@@ -6,4 +6,4 @@
 - Bash
 - Python
 
-@inc more Golang and Three.js
+@inc more Golang, D3.js and Three.js
