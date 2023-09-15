@@ -39,10 +39,6 @@ function decArrowPinCode(arrowStr) {
                 return [];
             }
         }
-        // Check for extra length condition
-        if (result.length > 4) {
-            return [];
-        }
     }
     return result;
 }
@@ -78,11 +74,13 @@ if (require.main.path.includes('mocha')) {
         });
     });
 } else {
-    console.log(decArrowPinCode('1→↑→'), [1, 2, 5, 6]);
-    console.log(decArrowPinCode('1*2↓'), [1, 1, 1, 0]);
-    console.log(decArrowPinCode('0*2↑'), [0, 0, 0, 1]);
-    console.log(decArrowPinCode('0↑↑↑'), [0, 1, 4, 7]);
-    console.log(decArrowPinCode('0↑↑↑↑'), []);
-    console.log(decArrowPinCode('8↑*5→'), []);
-    console.log(decArrowPinCode('0←*2←'), []);
+    // console.log(decArrowPinCode('1→↑→'), [1, 2, 5, 6]);
+    // console.log(decArrowPinCode('1*2↓'), [1, 1, 1, 0]);
+    // console.log(decArrowPinCode('0*2↑'), [0, 0, 0, 1]);
+    // console.log(decArrowPinCode('0↑↑↑'), [0, 1, 4, 7]);
+    // console.log(decArrowPinCode('0↑↑↑↑'), []);
+    // console.log(decArrowPinCode('8↑*5→'), []);
+    // console.log(decArrowPinCode('0←*2←'), []);
+    console.log(decArrowPinCode('7*1→↓→'), [7,7,8,5,6]);
+    
 }
