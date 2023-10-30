@@ -1,13 +1,22 @@
-#HACKERRANK and #CODEWARS and #LEETCODE solutions
+# Coding Challenges & Algorithm Practice
 
-- JavaScript
-- TypeScript
-- Java
-- Golang
-- Bash
-- Python
-- Swift
-- C#
-= Lua
+Solutions for programming challenges from various platforms.
 
-@inc more Golang, D3.js and React Fiber + Three.js
+## Platforms
+
+* HackerRank
+* Codewars
+* LeetCode
+* SoloLearn
+
+## Languages
+
+* JavaScript
+* TypeScript
+* Java
+* Go
+* Bash
+* Python
+* Swift
+* C#
+* Lua
