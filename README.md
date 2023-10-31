@@ -1,6 +1,13 @@
 # Coding Challenges & Algorithm Practice
 
-Solutions for programming challenges from various platforms.
+A personal collection of **algorithmic problems, coding challenges, and language exercises** solved across multiple competitive programming platforms.
+
+This repository is used to:
+
+* Practice data structures & algorithms
+* Improve problem-solving skills
+* Explore multiple programming languages
+* Track long-term coding progress
 
 ## Platforms
 
