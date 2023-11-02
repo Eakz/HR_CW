@@ -1,24 +1,18 @@
 # Coding Challenges & Algorithm Practice
 
-A growing collection of **algorithmic problems and coding challenges**.
+A curated repository of **algorithmic challenges and real-world coding problems**.
+
+## Focus Areas
+
+* Data Structures
+* Algorithms
+* Time & Space Complexity
+* Language-specific features
+* Functional & imperative paradigms
 
 ## Difficulty Levels
 
-* 🟢 Easy
-* 🟡 Medium
-* 🔴 Hard
-
-Each solution is labeled by difficulty when available.
-
-## Repository Structure
-
-```
-/platform
-  /language
-    /easy
-    /medium
-    /hard
-```
+🟢 Easy · 🟡 Medium · 🔴 Hard
 
 ## Platforms
 
