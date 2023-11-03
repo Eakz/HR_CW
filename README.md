@@ -1,18 +1,17 @@
 # Coding Challenges & Algorithm Practice
 
-A curated repository of **algorithmic challenges and real-world coding problems**.
+## 📊 Progress (manual)
+
+* Total challenges solved: *WIP*
+* Languages used: 9+
+* Platforms covered: 4+
 
 ## Focus Areas
 
 * Data Structures
 * Algorithms
-* Time & Space Complexity
-* Language-specific features
-* Functional & imperative paradigms
-
-## Difficulty Levels
-
-🟢 Easy · 🟡 Medium · 🔴 Hard
+* Optimization
+* Clean code
 
 ## Platforms
 
@@ -23,12 +22,4 @@ A curated repository of **algorithmic challenges and real-world coding problems*
 
 ## Languages
 
-* JavaScript
-* TypeScript
-* Java
-* Go
-* Bash
-* Python
-* Swift
-* C#
-* Lua
+JavaScript · TypeScript · Java · Go · Bash · Python · Swift · C# · Lua
