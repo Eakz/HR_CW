@@ -1,24 +1,19 @@
 # Coding Challenges & Algorithm Practice
 
-## 📊 Progress (manual)
+## 🎯 Goals
 
-* Total challenges solved: *WIP*
-* Languages used: 9+
-* Platforms covered: 4+
+* Solve problems daily
+* Improve algorithmic thinking
+* Master multiple programming languages
+* Prepare for technical interviews
 
-## Focus Areas
+## 📊 Progress
 
-* Data Structures
-* Algorithms
-* Optimization
-* Clean code
+Tracking long-term consistency and skill growth.
 
 ## Platforms
 
-* HackerRank
-* Codewars
-* LeetCode
-* SoloLearn
+HackerRank · Codewars · LeetCode · SoloLearn
 
 ## Languages
 
