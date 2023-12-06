@@ -1,14 +1,20 @@
 # Go Algorithms
 
-This folder contains Go implementations of various algorithms.
+A collection of **algorithm implementations written in Go**.
 
-Each file is meant to be:
+This folder is used to:
 
--   Small
--   Focused
--   Easy to run and read
+* Practice Go language fundamentals
+* Learn algorithms by implementing them manually
+* Experiment with different approaches and edge cases
 
-Most files can be executed directly:
+Each file typically contains:
+
+* One algorithm or problem
+* A clear solution
+* Inline comments explaining key ideas
+
+Run any file directly:
 
 ```bash
 go run file.go
