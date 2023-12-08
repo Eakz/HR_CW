@@ -1,21 +1,21 @@
 # Go Algorithms
 
-A collection of **algorithm implementations written in Go**.
+This folder contains **algorithmic exercises and implementations in Go**, ranging from basic to more advanced topics.
 
-This folder is used to:
+### What you’ll find here
 
-* Practice Go language fundamentals
-* Learn algorithms by implementing them manually
-* Experiment with different approaches and edge cases
+* Basic algorithms (searching, recursion, arrays)
+* Intermediate patterns (maps, stacks, dynamic programming)
+* Go-specific approaches where applicable
 
-Each file typically contains:
-
-* One algorithm or problem
-* A clear solution
-* Inline comments explaining key ideas
-
-Run any file directly:
+Files are kept **self-contained** and runnable:
 
 ```bash
 go run file.go
+```
+
+Some files may also include tests:
+
+```bash
+go test
 ```
