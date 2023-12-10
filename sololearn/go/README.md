@@ -1,21 +1,21 @@
 # Go Algorithms
 
-This folder contains **algorithmic exercises and implementations in Go**, ranging from basic to more advanced topics.
+A focused folder for **learning algorithms through Go**.
 
-### What you’ll find here
+The purpose is not only to solve problems, but to:
 
-* Basic algorithms (searching, recursion, arrays)
-* Intermediate patterns (maps, stacks, dynamic programming)
-* Go-specific approaches where applicable
+* Write **idiomatic Go**
+* Understand Go-specific behavior (slices, maps, pointers)
+* Practice clear error handling and control flow
 
-Files are kept **self-contained** and runnable:
+### Style guidelines
+
+* Prefer readability over micro-optimizations
+* Use inline comments to explain decisions
+* Keep files independent when possible
+
+All examples are intended to be run locally:
 
 ```bash
 go run file.go
-```
-
-Some files may also include tests:
-
-```bash
-go test
 ```
