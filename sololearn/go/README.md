@@ -1,21 +1,25 @@
 # Go Algorithms
 
-A focused folder for **learning algorithms through Go**.
+This folder contains **algorithmic and advanced programming exercises in Go**.
 
-The purpose is not only to solve problems, but to:
+### Covered topics
 
-* Write **idiomatic Go**
-* Understand Go-specific behavior (slices, maps, pointers)
-* Practice clear error handling and control flow
+* Classical algorithms and data structures
+* Go-specific patterns and pitfalls
+* Advanced concepts:
 
-### Style guidelines
+  * Concurrency (goroutines, channels)
+  * Synchronization (`sync`)
+  * Context cancellation
+  * Interfaces and composition
 
-* Prefer readability over micro-optimizations
-* Use inline comments to explain decisions
-* Keep files independent when possible
+Each file is designed to:
 
-All examples are intended to be run locally:
+* Demonstrate a specific concept
+* Be executable or testable in isolation
+* Emphasize how Go solves the problem
 
 ```bash
 go run file.go
+go test
 ```
