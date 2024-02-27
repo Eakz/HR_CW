@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@codewars/test-compat": "^1.1.0",
     "chai": "^4.3.4",
     "lodash": "^4.17.21",
     "prettier": "^3.3.1",

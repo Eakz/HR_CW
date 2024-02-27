@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@codewars/test-compat':
+    specifier: ^1.1.0
+    version: 1.1.0(chai@4.4.1)
   chai:
     specifier: ^4.3.4
     version: 4.4.1
@@ -36,6 +39,14 @@ devDependencies:
     version: 10.3.0
 
 packages:
+
+  /@codewars/test-compat@1.1.0(chai@4.4.1):
+    resolution: {integrity: sha512-eIhL7ofag8hZciBx2zdvU+QXR5auSatH/2uWrr7ulKbm10jWguBiuzZUDiSfDRxxxZIr67f/BEJT6K0kql9lOw==}
+    peerDependencies:
+      chai: '>=4.x'
+    dependencies:
+      chai: 4.4.1
+    dev: false
 
   /@cspotcode/source-map-support@0.8.1:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
