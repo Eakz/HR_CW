@@ -10,7 +10,7 @@ console.log(digPow(89, 1), 1);
 console.log(digPow(92, 1), -1);
 console.log(digPow(46288, 3), 51);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

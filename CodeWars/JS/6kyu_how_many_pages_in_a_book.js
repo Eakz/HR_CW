@@ -11,7 +11,7 @@ function amountOfPages(summary) {
     return curNum;
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
 

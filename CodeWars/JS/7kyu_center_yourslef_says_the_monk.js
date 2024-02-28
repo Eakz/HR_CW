@@ -5,7 +5,7 @@ function center(strng = '', width = 0, fill = ' ') {
 console.log(center('a', 3, ' '), ' a ');
 console.log(center('a', 3), ' a ');
 console.log(center('', 3, '_'), '___');
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const strictEqual = require('chai').assert.strictEqual;
 
     function doTest(args, expected) {

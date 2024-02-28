@@ -5,7 +5,7 @@ function isLeapYear(duration, year) {
     return totalDays === Math.floor(totalDays);
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Basic Tests', function () {
         it('should return if the given year is a leap year', function () {

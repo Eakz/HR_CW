@@ -6,7 +6,7 @@ function triangular(n) {
     
     return (n * (n + 1)) / 2;
   }
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const { assert } = require('chai');
 
     describe('Basic tests', () => {

@@ -7,7 +7,7 @@ const solution = (s, f) => {
     return div + mod;
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     chai.config.truncateThreshold = 0;

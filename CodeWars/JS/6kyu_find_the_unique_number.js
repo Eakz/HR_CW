@@ -19,7 +19,7 @@ console.log(findUniq([1, 1, 1, 2, 1, 1]), 2);
 console.log(findUniq([1, 1, 2, 1, 1]), 2);
 console.log(findUniq([3, 10, 3, 3, 3]), 10);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     chai.config.truncateThreshold = 0;

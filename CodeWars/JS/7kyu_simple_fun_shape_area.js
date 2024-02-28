@@ -4,7 +4,7 @@ function shapeArea(n) {
     return Math.pow(n,2) + Math.pow(n-1,2)
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Basic Tests', function () {
         it('It should works for basic tests.', function () {

@@ -10,7 +10,7 @@ console.log(symmetricPoint([1000, 15], [-7, -214]), [-1014, -443]);
 console.log(symmetricPoint([0, 0], [0, 0]), [0, 0]);
 
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const assert = require("chai").assert;
 
     describe("Points of Reflection", () => {

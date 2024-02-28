@@ -6,7 +6,7 @@ function fib_rabbits(m, n) {
     }
     return mature;
   }
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

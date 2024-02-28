@@ -23,7 +23,7 @@ console.log(validateWord("abcabcd"),false, "The word was: \"abcabcd\" \n");
 console.log(validateWord("abc!abc!"),true, "The word was: \"abc!abc!\" \n");
 console.log(validateWord("abc:abc"),false, "The word was: \"abc:abc\" \n");
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
 const Test = require('chai').assert
 describe("GetMiddle", function() {
   it("Tests", function() {

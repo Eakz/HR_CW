@@ -6,7 +6,7 @@ const between = (a, b) =>
         .map((_, i) => a + i);
 console.log(between(1, 4), [1, 2, 3, 4]);
 console.log(between(-2, 2), [-2, -1, 0, 1, 2]);
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const assert = require('chai').assert
     describe('Basic tests', () => {
         it('between(1, 4)', () => assert.deepStrictEqual(between(1, 4), [1, 2, 3, 4]));

@@ -22,7 +22,7 @@ const lookAndSay = (data, len, a = []) => {
     return lookAndSay(seeData, len - 1, [...a, seeData]);
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

@@ -8,7 +8,7 @@ function onesComplement(n) {
   console.log(onesComplement("01"), "10");
   console.log(onesComplement("10"), "01");
   console.log(onesComplement("1101"), "0010");
-  if (process.mainModule.path.includes('mocha')) {
+  if (require.main.path.includes('mocha')) {
     const Test = require('chai')
     describe("Tests", () => {
         it("test", () => {

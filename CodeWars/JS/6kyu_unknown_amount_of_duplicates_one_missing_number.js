@@ -20,7 +20,7 @@ function findDupsMiss(arr) {
     return [Math.max(...missing.filter(e=>!!e)), [...new Set(duplicates)].sort((a, b) => a - b)];
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai');
     describe('Example Tests', function () {
         it('Simple cases', function () {

@@ -4,7 +4,7 @@ function spacify(str) {
     return [...str].join(' ')
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const { assert } = require('chai');
 
     describe('spacify', function () {

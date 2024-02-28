@@ -15,7 +15,7 @@ function countVegetables(string){
 
 
 
-  if (process.mainModule.path.includes('mocha')) {
+  if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert
     describe("Basic tests",() =>{
         lst1 = [[2, 'tofu'], [2, 'potato'], [2, 'cucumber'], [2, 'cabbage'], [1, 'turnip'], [1, 'pepper'], [1, 'onion'], [1, 'mushroom'], [1, 'celery'], [1, 'carrot']];

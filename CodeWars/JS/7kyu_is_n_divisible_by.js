@@ -2,7 +2,7 @@
 
 const isDivisible = (n, ...rest) => rest.every(e => n % e === 0);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

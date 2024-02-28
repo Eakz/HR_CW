@@ -15,7 +15,7 @@ function pointInPoly(poly, point) {
     return inside;
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

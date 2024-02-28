@@ -33,7 +33,7 @@ console.log(smallest(285365), [238565, 3, 1]);
 console.log(smallest(269045), [26945, 3, 0]);
 console.log(smallest(296837), [239687, 4, 1]);
 console.log(smallest(1000000), [1, 0, 6]);
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     function testing(n, res) {
         Test.deepEqual(smallest(n), res);

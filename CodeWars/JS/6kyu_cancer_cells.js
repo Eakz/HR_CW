@@ -3,7 +3,7 @@
 function cutCancerCells(organism) {
     return organism.replace(/([a-z]?C[a-z]?)|c/g,'')
 }
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const { strictEqual } = require('chai').assert;
 
     function doTest(input, expected) {

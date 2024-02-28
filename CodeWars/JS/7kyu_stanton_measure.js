@@ -5,7 +5,7 @@ const stantonMeasure = a => {
     return a.reduce((acc, e) => (e === count ? acc + 1 : acc), 0);
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     chai.config.truncateThreshold = 0;

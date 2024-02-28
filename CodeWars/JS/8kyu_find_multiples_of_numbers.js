@@ -11,7 +11,7 @@ const findMultiples = (integer, limit) => {
     }
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Basic Tests', () => {
         Test.sameOrderedMembers(findMultiples(5, 25), [5, 10, 15, 20, 25]);

@@ -21,7 +21,7 @@ function nextNumb(val) {
     }
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     describe('Example Tests', function () {
         Test.assertEquals(nextNumb(12), 15);
         Test.assertEquals(nextNumb(13), 15);

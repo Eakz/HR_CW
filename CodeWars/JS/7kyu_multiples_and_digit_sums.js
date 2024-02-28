@@ -15,7 +15,7 @@ console.log(procedure(49), 30);
 console.log(procedure(17), 48);
 console.log(procedure(10), 46);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai');
     describe('Solution', function () {
         it('Fixed Test', function () {

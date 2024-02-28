@@ -9,7 +9,7 @@ const toAndFrom = (a, b, t) => {
     return isAlternate ? altpost : post;
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     describe('Basic Tests', function () {
         it('It should works for basic tests.', function () {
             assert.equal(toAndFrom(2, 4, 3), 3);

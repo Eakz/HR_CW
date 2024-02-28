@@ -4,7 +4,7 @@ function zeroAndOne(s) {
     return s.replace(/01|10/g, '').length;
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const strictEqual = require('chai').assert.strictEqual;
 
     function doTest(input, expected) {

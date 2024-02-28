@@ -4,7 +4,7 @@ const areaOrPerimeter = function(l , w) {
     return l===w?l*w:2*(l+w)
   };
 
-  if (process.mainModule.path.includes('mocha')) {
+  if (require.main.path.includes('mocha')) {
 const Test = require('chai').assert
   describe("Tests", () => {
     it("test", () => {

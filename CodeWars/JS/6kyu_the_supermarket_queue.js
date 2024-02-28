@@ -31,7 +31,7 @@ function queueTime(queue, n) {
     return Math.max(...tills);
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
 
     describe('example tests', function () {
