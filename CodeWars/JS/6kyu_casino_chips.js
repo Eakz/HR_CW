@@ -14,7 +14,7 @@ console.log(solve([7, 4, 10]), 10);
 console.log(solve([12, 12, 12]), 18);
 console.log(solve([1, 23, 2]), 3);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     describe('Example cases', function () {

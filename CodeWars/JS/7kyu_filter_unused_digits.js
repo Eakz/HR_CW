@@ -10,7 +10,7 @@ function unusedDigits(...props) {
 unusedDigits=(...a)=>'0123456789'.replace(new RegExp('['+a+']','g'),'')
 
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const { assert } = require('chai');
 
     it('example tests', () => {

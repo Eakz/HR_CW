@@ -7,7 +7,7 @@ function remove(string) {
 // Regex option
 // const remove = s => s.replace(/!$/, '');
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const strictEqual = require('chai').assert.strictEqual;
     function doTest(input, expected) {
         const actual = remove(input);

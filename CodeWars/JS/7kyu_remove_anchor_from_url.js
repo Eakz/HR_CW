@@ -4,7 +4,7 @@ function removeUrlAnchor(url) {
     return url.split('#')[0]
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const { assert } = require('chai');
 
     describe('Basic tests', () => {

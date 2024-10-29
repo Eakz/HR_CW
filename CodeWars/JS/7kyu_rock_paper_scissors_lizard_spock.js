@@ -15,7 +15,7 @@ function rpsls(pl1, pl2) {
         : 'Draw!';
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('rock paper scissors lizard spock', function () {
         it('Player 1 Won!', function () {

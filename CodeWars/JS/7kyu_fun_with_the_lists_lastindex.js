@@ -17,7 +17,7 @@ console.log(lastIndexOf(listFromArray([17, '17', 1.2]), 17), 0);
 console.log(lastIndexOf(listFromArray([17, '17', 1.2]), '17'), 1);
 console.log(lastIndexOf(listFromArray([1, 2, 3, 3]), 3), 3);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('lastIndexOf', function () {
         it('basic tests', function () {

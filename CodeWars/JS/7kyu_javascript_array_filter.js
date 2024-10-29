@@ -10,7 +10,7 @@ console.log(getEvenNumbers([12, 14, 15]), [12, 14]);
 console.log(getEvenNumbers([13, 15]), []);
 console.log(getEvenNumbers([1, 3, 9]), []);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     
 
     describe('Fixed tests', () => {

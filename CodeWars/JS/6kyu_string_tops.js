@@ -13,7 +13,7 @@ function tops(msg) {
     return [...result].reduce((acc, e, i) => (i % 2 === 1 ? acc : e+ acc), '');
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const test = require('chai').assert.equal;
     describe('Tests', () => {
         it('test', () => {

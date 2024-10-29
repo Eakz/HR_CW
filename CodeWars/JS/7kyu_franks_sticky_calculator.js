@@ -4,7 +4,7 @@ function stickyCalc(operation, val1, val2) {
     return Math.round(eval(`${parseInt(`${Math.round(val1)}${Math.round(val2)}`)} ${operation} ${val2}`));
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

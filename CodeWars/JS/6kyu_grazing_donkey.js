@@ -49,7 +49,7 @@ console.log(getRopeLength(0, 0.0), 0);
 console.log(getRopeLength(0, 0.5), 0);
 console.log(getRopeLength(0, 1.0), 0);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     describe('Example Tests', function () {

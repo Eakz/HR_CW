@@ -9,7 +9,7 @@ const fibonacci = f => i => i <= 1 ? BigInt(i) : f(i - 1) + f(i - 2);
 const foldr = f => fn => z => xs =>
   (x => x.done ? z : fn(x.value)(() => f(fn)(z)(xs)))(xs.next())
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const { assert } = require('chai');
 
     const compose = f => g => x => f(g(x));

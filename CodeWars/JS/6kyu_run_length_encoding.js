@@ -16,7 +16,7 @@ var runLengthEncoding = function (str) {
     );
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const assert = require('chai').assert;
 
     var randomString = function (n) {

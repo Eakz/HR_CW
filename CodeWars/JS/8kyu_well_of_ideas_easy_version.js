@@ -11,7 +11,7 @@ const well = x => {
     return c > 2 ? 'I smell a series!' : c === 0 ? 'Fail!' : 'Publish!';
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     chai.config.truncateThreshold = 0;

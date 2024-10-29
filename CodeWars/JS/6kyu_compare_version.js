@@ -16,7 +16,7 @@ function compareVersions(v1, v2) {
     }
     return false;
 }
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const { assert } = require('chai');
 
     describe('Sample tests', () => {

@@ -11,7 +11,7 @@ console.log(toDayOfYear([1, 5, 3000]), 121);
 console.log(toDayOfYear([14, 3, 1066]), 73);
 console.log(toDayOfYear([5, 11, 1604]), 310);
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

@@ -7,7 +7,7 @@ const nameThatNumber = n => {
     B = '  twenty thirty forty fifty sixty seventy eighty ninety'.split(' ');
     return A[n] || B[(n / 10) | 0] + (n % 10 ? ' ' + A[n % 10] : '');
 };
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     chai.config.truncateThreshold = 0;

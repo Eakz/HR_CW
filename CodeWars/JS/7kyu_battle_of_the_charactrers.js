@@ -5,7 +5,7 @@ function battle(x, y) {
     return val1 === val2 ? 'Tie!' : val1 > val2 ? x : y;
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Basic Tests', function () {
         it('Test1', () => {

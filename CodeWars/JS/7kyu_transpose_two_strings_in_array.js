@@ -8,7 +8,7 @@ const transposeTwoStrings = array => {
     }
     return result.join('\n');
 };
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const strictEqual = require('chai').assert.strictEqual;
 
     function doTest(array, expected) {

@@ -12,7 +12,7 @@ function containAllRots(strng, arr) {
     return true;
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     function testing(actual, expected) {
         Test.equal(actual, expected);

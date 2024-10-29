@@ -8,7 +8,7 @@ var max = function (list) {
     return Math.max(...list);
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert.equal;
     describe('Test', function () {
         it('Examples', function () {

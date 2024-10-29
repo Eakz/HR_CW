@@ -7,7 +7,7 @@ function createPhoneNumber(n){
   return `(${snj(n,0,3)}) ${snj(n,3,6)}-${snj(n,6)}`
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require("chai");
     const assert = chai.assert;
     chai.config.truncateThreshold=0;

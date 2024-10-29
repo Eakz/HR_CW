@@ -2,7 +2,7 @@
 
 const racePodium=n=>n!=7?[r=n/3+.99|0,r+1,n-r*2-1]:[2,4,1];
 
-  if (process.mainModule.path.includes('mocha')) {
+  if (require.main.path.includes('mocha')) {
     const chai = require("chai");
 const assert = chai.assert;
 

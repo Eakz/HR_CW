@@ -3,7 +3,7 @@
 function arrAdder(arr) {
    return arr[0].map((e,i)=>([e,...arr.slice(1).map(el=>el[i])].join(''))).join(' ')
 }
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

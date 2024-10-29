@@ -28,7 +28,7 @@ console.log(shiftedDiff('Esham', 'Esham'), 0);
 console.log(shiftedDiff(' ', ' '), 0);
 console.log(shiftedDiff('hoop', 'pooh'), -1);
 console.log(shiftedDiff('  ', ' '), -1);
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

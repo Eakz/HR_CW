@@ -11,7 +11,7 @@ function sumMul(n, m) {
     return result
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const chai = require('chai');
     const assert = chai.assert;
     chai.config.truncateThreshold = 0;

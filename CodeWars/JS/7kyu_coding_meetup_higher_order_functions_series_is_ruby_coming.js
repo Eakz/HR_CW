@@ -49,7 +49,7 @@ var list2 = [
 
 console.log(isRubyComing(list1), true);
 console.log(isRubyComing(list2), false);
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai');
     describe('Tests', () => {
         it('test', () => {

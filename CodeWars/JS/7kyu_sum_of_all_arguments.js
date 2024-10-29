@@ -1,7 +1,7 @@
 // https://www.codewars.com/kata/540c33513b6532cd58000259/train/javascript
 
 const sum = (...args)=>args.reduce((acc,e)=>acc+e)
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert
     describe("Sample tests", () => {
         it("Small tests", () => {

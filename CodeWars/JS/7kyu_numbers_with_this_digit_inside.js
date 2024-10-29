@@ -11,7 +11,7 @@ function numbersWithDigitInside(x, d) {
   }
 
 
-  if (process.mainModule.path.includes('mocha')) {
+  if (require.main.path.includes('mocha')) {
 const assert=require('chai').assert
 
 describe("Solution", function(){

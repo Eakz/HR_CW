@@ -100,7 +100,7 @@ Morse.alpha = {
   ' ': '0' // Technically is 7 0-bits, but we assume that a space will always be between two other characters
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai').assert;
     describe('Tests', () => {
         it('test', () => {

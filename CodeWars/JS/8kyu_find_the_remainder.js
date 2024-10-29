@@ -4,7 +4,7 @@ function remainder(n, m) {
     return n > m ? n % m : m % n;
 }
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const assert = require('chai').assert;
     describe('Remainder Function', () => {
         it('Should handle arguments and math as defined in specificaitons', () => {

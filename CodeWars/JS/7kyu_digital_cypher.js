@@ -4,7 +4,7 @@ function encode(str, n) {
     const numSplit = n.toString().split('').map(e=>parseInt(e))
     return [...str].map((e,i)=>e.charCodeAt()-96+numSplit[i%numSplit.length]);
 }
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai');
     describe('Encoding..', function () {
         it('Basic Tests', function () {

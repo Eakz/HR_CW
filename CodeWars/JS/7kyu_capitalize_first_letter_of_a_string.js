@@ -7,7 +7,7 @@ String.prototype.capitalize = function () {
     return String.fromCharCode(firstCharacterCode) + this.slice(1);
 };
 
-if (process.mainModule.path.includes('mocha')) {
+if (require.main.path.includes('mocha')) {
     const Test = require('chai');
     describe('Tests', () => {
         it('test', () => {
