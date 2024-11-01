@@ -51,9 +51,9 @@ if (require.main.path.includes('mocha')) {
         ['R', [2, 1]],
         ['LRLL', [4, 7]],
         ['LLRLR', [5, 13]],
-        // ["RRRLRRR", [19, 5]],
-        // ["LLLLRLLLL", [6, 29]],
-        // ["LLLLLLLLLL", [1, 11]]
+        ["RRRLRRR", [19, 5]],
+        ["LLLLRLLLL", [6, 29]],
+        ["LLLLLLLLLL", [1, 11]]
     ];
     for (let [walk, expected] of testCases) {
         console.log(promenade(walk), ' should be - ', expected);
