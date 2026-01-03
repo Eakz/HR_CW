@@ -1,0 +1,44 @@
+/*
+task 238:
+Transactions - Reverse
+You need to reverse the order of transaction amounts in dollars
+*/
+
+package main
+
+import (
+	"fmt"
+	"reflect"
+)
+
+func Reverse_orderTransactions(amounts []int) []int {
+	res := make([]int, len(amounts))
+	for i, v := range amounts {
+		res[len(amounts)-1-i] = v
+	}
+	return res
+}
+
+func main() {
+	tests := []struct {
+		input []int
+		expected []int
+	}{
+		{[]int{10, 20, 30}, Reverse_orderTransactions([]int{10, 20, 30})},
+		{[]int{50, 60, 70}, Reverse_orderTransactions([]int{50, 60, 70})},
+		{[]int{1, 2, 3}, Reverse_orderTransactions([]int{1, 2, 3})},
+		{[]int{100, 200}, Reverse_orderTransactions([]int{100, 200})},
+		{[]int{}, Reverse_orderTransactions([]int{})},
+	}
+	
+	for idx, t := range tests {
+		res := Reverse_orderTransactions(t.input)
+		status := "FAIL"
+		if reflect.DeepEqual(res, t.expected) {
+			status = "PASS"
+		}
+		fmt.Printf("Test %d: %s\n", idx+1, status)
+	}
+}
+
+// finally works
