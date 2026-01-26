@@ -13,7 +13,7 @@ dependencies:
     version: 6.2.2
   lodash:
     specifier: ^4.17.21
-    version: 4.17.21
+    version: 4.17.23
   prettier:
     specifier: ^3.8.0
     version: 3.8.0
@@ -390,8 +390,8 @@ packages:
       p-locate: 5.0.0
     dev: true
 
-  /lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+  /lodash@4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
     dev: false
 
   /log-symbols@4.1.0:
